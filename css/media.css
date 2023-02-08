@@ -1,0 +1,33 @@
+@media screen and (max-width: 700px) {
+    .post {
+        justify-content: flex-start;
+    }
+    .box-btn {
+        margin-top: auto;
+    }
+    .post h3 {
+        font-size: 20px;
+    }
+    .post p {
+        font-size: 18px;
+    }
+    .post img {
+        margin: auto 0;
+        width: 82%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .wrapper {
+        flex-wrap: wrap;
+    }
+    .aside {
+        width: 100%;
+    }
+    .menu li {
+        display: block;
+    }
+    .footer span {
+        font-size: 17px;
+    }
+}
